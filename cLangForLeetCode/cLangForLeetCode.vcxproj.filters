@@ -42,6 +42,9 @@
     <ClCompile Include="lc_1431.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_1470.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetCode.h">

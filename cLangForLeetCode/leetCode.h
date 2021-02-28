@@ -8,6 +8,8 @@
 int numJewelsInStones(char* jewels, char* stones);
 //lc_1431
 bool* kidsWithCandies(int* candies, int candiesSize, int extraCandies, int* returnSize);
+//lc_1470
+int* shuffle(int* nums, int numsSize, int n, int* returnSize);
 //lc_1480
 int* runningSum(int* nums, int numsSize, int* returnSize);
 //lc_1512
