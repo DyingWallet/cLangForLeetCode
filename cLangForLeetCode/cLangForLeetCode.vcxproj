@@ -141,10 +141,17 @@
   <ItemGroup>
     <ClCompile Include="audition_0203.c" />
     <ClCompile Include="jzOffer_58_II.c" />
+    <ClCompile Include="lcp_01.c" />
+    <ClCompile Include="lcp_06.c" />
+    <ClCompile Include="lc_1108.c" />
     <ClCompile Include="lc_1431.c" />
     <ClCompile Include="lc_1470.c" />
+    <ClCompile Include="lc_1486.c" />
     <ClCompile Include="lc_1512.c" />
     <ClCompile Include="lc_1672.c" />
+    <ClCompile Include="lc_1678.c" />
+    <ClCompile Include="lc_1720.c" />
+    <ClCompile Include="lc_237.c" />
     <ClCompile Include="lc_5689.c" />
     <ClCompile Include="lc_1480.c" />
     <ClCompile Include="lc_771.c" />
@@ -152,6 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetCode.h" />
+    <ClInclude Include="leetCodeStructs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

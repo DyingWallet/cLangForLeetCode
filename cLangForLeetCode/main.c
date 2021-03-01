@@ -4,15 +4,8 @@
 #include"leetCode.h"
 
 int main() {
-	int arr[] = { 2,5,1,3,4,7 };
-	int *res=NULL;
-	int n = 3;
-	int retSize;
-	res = shuffle(arr,6,n,&retSize);
-
-	for (int i = 0; i < retSize; i++) {
-		printf_s("%d,", res[i]);
-	}
-
+	char* add = "255.100.50.0";
+	char* res = defangIPaddr(add);
+	printf("%s", res);
 	return 0;
 }

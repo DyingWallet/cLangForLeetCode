@@ -5,11 +5,8 @@
  *     struct ListNode *next;
  * };
  */
+#include"leetCode.h"
 
-struct ListNode {
-	int val;
-	struct ListNode* next;
-};
 typedef struct ListNode listNode;
 
 void deleteNode(struct ListNode* node) {
