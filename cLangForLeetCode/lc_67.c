@@ -7,8 +7,6 @@
 //输入 : a = "1010", b = "1011"
 //输出 : "10101"
 #include"leetCode.h"
-
-//法1：数组逐位相加
 static char map[2] = { '0','1' };
 char* addBinary(char* a, char* b) {
     int i = strlen(a) - 1, j = strlen(b) - 1, k = i > j ? i + 1 : j + 1;
@@ -42,5 +40,3 @@ char* addBinary(char* a, char* b) {
     }
     return res + 1;
 }
-
-//法2
