@@ -6,6 +6,12 @@
 #include"leetCodeStructs.h"
 
 //lc
+//lc_2
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
+//lc_29
+int divide(int dividend, int divisor);
+//lc_388
+int* countBitsHigh(int num, int* returnSize);
 //lc_771
 int numJewelsInStones(char* jewels, char* stones);
 //lc_1108

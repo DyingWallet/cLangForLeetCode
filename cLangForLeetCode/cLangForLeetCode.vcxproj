@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="audition_0203.c" />
+    <ClCompile Include="jzOffer_09.c" />
     <ClCompile Include="jzOffer_58_II.c" />
     <ClCompile Include="lcp_01.c" />
+    <ClCompile Include="lcp_03.c" />
     <ClCompile Include="lcp_06.c" />
     <ClCompile Include="lc_1108.c" />
     <ClCompile Include="lc_1431.c" />
@@ -151,7 +153,11 @@
     <ClCompile Include="lc_1672.c" />
     <ClCompile Include="lc_1678.c" />
     <ClCompile Include="lc_1720.c" />
+    <ClCompile Include="lc_2.c" />
+    <ClCompile Include="lc_232.c" />
     <ClCompile Include="lc_237.c" />
+    <ClCompile Include="lc_29.c" />
+    <ClCompile Include="lc_388.c" />
     <ClCompile Include="lc_5689.c" />
     <ClCompile Include="lc_1480.c" />
     <ClCompile Include="lc_771.c" />

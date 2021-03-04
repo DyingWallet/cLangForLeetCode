@@ -66,6 +66,24 @@
     <ClCompile Include="lc_1678.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_388.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_29.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcp_03.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jzOffer_09.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_232.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetCode.h">
