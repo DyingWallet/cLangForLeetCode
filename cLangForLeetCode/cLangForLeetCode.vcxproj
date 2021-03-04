@@ -145,6 +145,7 @@
     <ClCompile Include="lcp_01.c" />
     <ClCompile Include="lcp_03.c" />
     <ClCompile Include="lcp_06.c" />
+    <ClCompile Include="lc_101.c" />
     <ClCompile Include="lc_1108.c" />
     <ClCompile Include="lc_1431.c" />
     <ClCompile Include="lc_1470.c" />
@@ -154,6 +155,7 @@
     <ClCompile Include="lc_1678.c" />
     <ClCompile Include="lc_1720.c" />
     <ClCompile Include="lc_2.c" />
+    <ClCompile Include="lc_226.c" />
     <ClCompile Include="lc_232.c" />
     <ClCompile Include="lc_237.c" />
     <ClCompile Include="lc_29.c" />

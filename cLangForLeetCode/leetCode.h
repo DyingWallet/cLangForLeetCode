@@ -12,6 +12,8 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
 int divide(int dividend, int divisor);
 //lc_67
 char* addBinary(char* a, char* b);
+//lc_226
+treeNode invertTree(treeNode root);
 //lc_388
 int* countBitsHigh(int num, int* returnSize);
 //lc_771

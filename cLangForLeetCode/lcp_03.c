@@ -36,11 +36,9 @@ bool robot(char* command, int** obstacles, int obstaclesSize, int* obstaclesColS
 
 bool canReach(char* command, int** obs, int obsRowSize, int* obsColSize, int x, int y, int curX, int curY, int cmd) {
 	if (curX == x && curY == y) return true;
-	if (cmd == cmdLen) cmd = 0;
-	//检查是否是障碍物
-
-	if (isTraped(obs,obsRowSize,obsColSize,curX,curY)) return false;
-
+	if (curX > 1e9 || curY > 1e9) return false;
+	if (isTraped(obs,obsRowSize,obsColSize,curX,curY)) return false;	//检查是否是障碍物
+	if (cmd > cmdLen) cmd = 0;
 	if (command[cmd] == 'U')
 		return canReach(command, obs, obsRowSize, obsColSize, x, y + 1, curX, curY, cmd++);
 	if (command[cmd] == 'R')
