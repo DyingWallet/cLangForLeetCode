@@ -41,7 +41,17 @@ int main() {
 	//listNode res = addTwoNumbers(head1, head2);
 	//printf("%d\n",head1->val);
 
-	char* str = addBinary("11", "1");
-	printf("%s\n", str);
+	//char* str = addBinary("11", "1");
+	//printf("%s\n", str);
+	int len = 3;
+	int(*hashMap)[2] = (int(*)[2])calloc(len, sizeof(int[2]));
+	
+	for (int i = 0; i < len; i++) {
+		for (int j = 0; j < 2; j++) {
+			hashMap[i][j] = i + j;
+			printf("%d,", hashMap[i][j]);
+		}
+	}
+
 	return 0;
 }
