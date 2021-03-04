@@ -160,6 +160,7 @@
     <ClCompile Include="lc_388.c" />
     <ClCompile Include="lc_5689.c" />
     <ClCompile Include="lc_1480.c" />
+    <ClCompile Include="lc_67.c" />
     <ClCompile Include="lc_771.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>

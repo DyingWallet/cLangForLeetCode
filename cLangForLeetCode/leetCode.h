@@ -10,6 +10,8 @@
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
 //lc_29
 int divide(int dividend, int divisor);
+//lc_67
+char* addBinary(char* a, char* b);
 //lc_388
 int* countBitsHigh(int num, int* returnSize);
 //lc_771
