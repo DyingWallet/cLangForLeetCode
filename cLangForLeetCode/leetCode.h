@@ -43,6 +43,8 @@ int xorOperation(int n, int start);
 int numIdenticalPairs(int* nums, int numsSize);
 //lc_1672
 int maximumWealth(int** accounts, int accountsSize, int* accountsColSize);
+//lc_1678
+char* interpret(char* command);
 //lc_1720
 int* decode(int* encoded, int encodedSize, int first, int* returnSize);
 //lc_5689

@@ -54,11 +54,9 @@ int main() {
 	//bool res = isPalindrome(1001);
 	//printf("%d\n", num/10);
 
-	char ** arr = (char**)calloc(3 , sizeof(char[10]));
-	arr[0] = "flower";
-	arr[1] = "flower";
-	arr[2] = "flower";
-	//{ "flower","flower","flower","flower" };
-	char* res = longestCommonPrefix(arr, 3);
+	char* s = "G";
+
+	char* res = interpret(s);
+
 	return 0;
 }
