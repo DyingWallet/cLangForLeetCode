@@ -3,11 +3,22 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include<string.h>
+#include<math.h>
 #include"leetCodeStructs.h"
 
 //lc
+//lc_1
+int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 //lc_2
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
+//lc_7
+int reverse(int x);
+//lc_9
+bool isPalindrome(int x);
+//lc_13
+int romanToInt(char* s);
+//lc_14
+char* longestCommonPrefix(char** strs, int strsSize);
 //lc_29
 int divide(int dividend, int divisor);
 //lc_67

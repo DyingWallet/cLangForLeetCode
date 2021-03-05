@@ -43,15 +43,22 @@ int main() {
 
 	//char* str = addBinary("11", "1");
 	//printf("%s\n", str);
-	int len = 3;
-	int(*hashMap)[2] = (int(*)[2])calloc(len, sizeof(int[2]));
-	
-	for (int i = 0; i < len; i++) {
-		for (int j = 0; j < 2; j++) {
-			hashMap[i][j] = i + j;
-			printf("%d,", hashMap[i][j]);
-		}
-	}
+	//int len = 3;
+	//int(*hashMap)[2] = (int(*)[2])calloc(len, sizeof(int[2]));
+	//for (int i = 0; i < len; i++) {
+	//	for (int j = 0; j < 2; j++) {
+	//		hashMap[i][j] = i + j;
+	//		printf("%d,", hashMap[i][j]);
+	//	}
+	//}
+	//bool res = isPalindrome(1001);
+	//printf("%d\n", num/10);
 
+	char ** arr = (char**)calloc(3 , sizeof(char[10]));
+	arr[0] = "flower";
+	arr[1] = "flower";
+	arr[2] = "flower";
+	//{ "flower","flower","flower","flower" };
+	char* res = longestCommonPrefix(arr, 3);
 	return 0;
 }
