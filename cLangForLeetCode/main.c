@@ -53,10 +53,9 @@ int main() {
 	//}
 	//bool res = isPalindrome(1001);
 	//printf("%d\n", num/10);
-
-	char* s = "G";
-
-	char* res = interpret(s);
+	int nums[5] = { 1,2,5,4,3 };
+	int returnSize = 0;
+	int*res = nextGreaterElements( nums, 5, &returnSize);
 
 	return 0;
 }

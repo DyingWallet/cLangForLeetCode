@@ -27,6 +27,8 @@ char* addBinary(char* a, char* b);
 treeNode invertTree(treeNode root);
 //lc_388
 int* countBitsHigh(int num, int* returnSize);
+//lc_503
+int* nextGreaterElements(int* nums, int numsSize, int* returnSize);
 //lc_771
 int numJewelsInStones(char* jewels, char* stones);
 //lc_1108
