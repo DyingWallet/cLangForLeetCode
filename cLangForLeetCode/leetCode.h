@@ -25,6 +25,10 @@ bool isValid(char* s);
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);
 //lc_26
 int removeDuplicates(int* nums, int numsSize);
+//lc_27
+int removeElement(int* nums, int numsSize, int val);
+//lc_28
+int strStr(char* haystack, char* needle);
 //lc_29
 int divide(int dividend, int divisor);
 //lc_67
