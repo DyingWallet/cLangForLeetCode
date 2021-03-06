@@ -19,6 +19,10 @@ bool isPalindrome(int x);
 int romanToInt(char* s);
 //lc_14
 char* longestCommonPrefix(char** strs, int strsSize);
+//lc_20
+bool isValid(char* s);
+//lc_21
+struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);
 //lc_29
 int divide(int dividend, int divisor);
 //lc_67

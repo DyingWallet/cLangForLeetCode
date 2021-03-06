@@ -158,6 +158,8 @@
     <ClCompile Include="lc_1678.c" />
     <ClCompile Include="lc_1720.c" />
     <ClCompile Include="lc_2.c" />
+    <ClCompile Include="lc_20.c" />
+    <ClCompile Include="lc_21.c" />
     <ClCompile Include="lc_226.c" />
     <ClCompile Include="lc_232.c" />
     <ClCompile Include="lc_237.c" />
