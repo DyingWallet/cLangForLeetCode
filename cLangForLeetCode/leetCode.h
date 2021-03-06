@@ -23,6 +23,8 @@ char* longestCommonPrefix(char** strs, int strsSize);
 bool isValid(char* s);
 //lc_21
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);
+//lc_26
+int removeDuplicates(int* nums, int numsSize);
 //lc_29
 int divide(int dividend, int divisor);
 //lc_67
