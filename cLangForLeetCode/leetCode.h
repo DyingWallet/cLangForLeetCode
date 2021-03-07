@@ -31,6 +31,14 @@ int removeElement(int* nums, int numsSize, int val);
 int strStr(char* haystack, char* needle);
 //lc_29
 int divide(int dividend, int divisor);
+//lc_35
+int searchInsert(int* nums, int numsSize, int target);
+//lc_38
+char* countAndSay(int n);
+//lc_53
+int maxSubArray(int* nums, int numsSize);
+//lc_58
+int lengthOfLastWord(char* s);
 //lc_67
 char* addBinary(char* a, char* b);
 //lc_226

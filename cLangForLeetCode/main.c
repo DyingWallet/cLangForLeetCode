@@ -58,6 +58,12 @@ int main() {
 	//char* s = "([)]";
 	//bool res = isValid(s);
 
-	int index = strStr("cca", "a");
+	//char* res = countAndSay(5);
+	//int nums[] = { 1,-1,1 };
+	//int numsSize = 3;
+
+	//int res = maxSubArray(nums, numsSize);
+	char* s = "Hello World";
+	int res = lengthOfLastWord(s);
 	return 0;
 }
