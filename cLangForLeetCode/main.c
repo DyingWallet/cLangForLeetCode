@@ -63,7 +63,29 @@ int main() {
 	//int numsSize = 3;
 
 	//int res = maxSubArray(nums, numsSize);
-	char* s = "Hello World";
-	int res = lengthOfLastWord(s);
+	//char* s = "Hello World";
+	//int res = lengthOfLastWord(s);
+	//treeNode head = (treeNode)calloc(1,sizeof(struct TreeNode));
+	//treeNode temp = head;
+	//head->val = 2;
+	//head->left = (treeNode)calloc(1,sizeof(struct TreeNode));
+	//head->left->val = 2;
+
+	//head->right = (treeNode)calloc(1,sizeof(struct TreeNode));
+	//head->right->val = INT_MAX;
+
+	//temp = head->right;
+
+	//temp->left = (treeNode)calloc(1,sizeof(struct TreeNode));
+	//temp->left->val = 5;
+
+	//temp->right = (treeNode)calloc(1,sizeof(struct TreeNode));
+	//temp->right->val = 7;
+
+	//int res = findSecondMinimumValue(head);
+
+	//char s[] = "abbaca";
+	//char* res = removeDuplicates_1047(s);
+
 	return 0;
 }

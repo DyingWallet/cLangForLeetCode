@@ -9,15 +9,12 @@ int countMatches(char*** items, int itemsSize, int* itemsColSize, char* ruleKey,
 	char** item = NULL;
 	int type = -1;
 	int counter = 0;
-	if (strcmp_my("type", ruleKey)) {
+	if (strcmp_my("type", ruleKey)) 
 		type = 0;
-	}
-	else if (strcmp_my("color", ruleKey)) {
+	else if (strcmp_my("color", ruleKey)) 
 		type = 1;
-	}
-	else if (strcmp_my("name", ruleKey)) {
+	else if (strcmp_my("name", ruleKey)) 
 		type = 2;
-	}
 
 	for (int i = 0; i < itemsSize; i++) {
 		item = *(items + i);

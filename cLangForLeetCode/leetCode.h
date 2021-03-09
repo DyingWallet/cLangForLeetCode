@@ -47,8 +47,12 @@ treeNode invertTree(treeNode root);
 int* countBitsHigh(int num, int* returnSize);
 //lc_503
 int* nextGreaterElements(int* nums, int numsSize, int* returnSize);
+//lc_671
+int findSecondMinimumValue(struct TreeNode* root);
 //lc_771
 int numJewelsInStones(char* jewels, char* stones);
+//lc_1047
+char* removeDuplicates_1047(char* S);
 //lc_1108
 char* defangIPaddr(char* address);
 //lc_1431
