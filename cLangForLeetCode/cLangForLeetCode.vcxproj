@@ -180,6 +180,7 @@
     <ClCompile Include="lc_66.c" />
     <ClCompile Include="lc_67.c" />
     <ClCompile Include="lc_671.c" />
+    <ClCompile Include="lc_69.c" />
     <ClCompile Include="lc_7.c" />
     <ClCompile Include="lc_771.c" />
     <ClCompile Include="lc_9.c" />

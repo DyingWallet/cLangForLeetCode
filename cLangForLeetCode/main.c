@@ -86,6 +86,6 @@ int main() {
 
 	//char s[] = "abbaca";
 	//char* res = removeDuplicates_1047(s);
-
+	int res = mySqrt(9);
 	return 0;
 }

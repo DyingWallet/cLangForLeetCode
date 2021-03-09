@@ -41,6 +41,8 @@ int maxSubArray(int* nums, int numsSize);
 int lengthOfLastWord(char* s);
 //lc_67
 char* addBinary(char* a, char* b);
+//lc_69
+int mySqrt(int x);
 //lc_226
 treeNode invertTree(treeNode root);
 //lc_388
