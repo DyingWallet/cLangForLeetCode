@@ -9,7 +9,6 @@
 #include"leetCode.h"
 static char map[2] = { '0','1' };//数据字典
 char* addBinary(char* a, char* b) {
-    //获取两字符串长度，取长串长度+1作为返回结果长度
     int i = strlen(a) - 1, j = strlen(b) - 1, k = i > j ? i + 1 : j + 1;
     char* res = (char*)calloc(k + 2, sizeof(char));//k+2是为了给可能的最高位进位与'\0'留出空间
     int isUp = 0, temp = 0;//进位flag与二进制的整形计算值

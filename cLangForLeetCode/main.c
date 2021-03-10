@@ -86,6 +86,10 @@ int main() {
 
 	//char s[] = "abbaca";
 	//char* res = removeDuplicates_1047(s);
-	int res = mySqrt(9);
+	int buf = 3;
+	char c1 = (char)buf, c2 = buf + '0';
+
+	printf("c1:%c\nc2:%c", c1, c2);
+
 	return 0;
 }
