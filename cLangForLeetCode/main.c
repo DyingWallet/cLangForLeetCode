@@ -86,10 +86,15 @@ int main() {
 
 	//char s[] = "abbaca";
 	//char* res = removeDuplicates_1047(s);
-	int buf = 3;
-	char c1 = (char)buf, c2 = buf + '0';
+	//int buf = 3;
+	//char c1 = (char)buf, c2 = buf + '0';
 
-	printf("c1:%c\nc2:%c", c1, c2);
+	//printf("c1:%c\nc2:%c", c1, c2);
+	int m = 3, n = 3, nums1Size = 6, nums2Size = 3;
+	int nums1[] = { 1,2,3,0,0,0 };
+	int nums2[] = { 2,3,4 };
+
+	merge(nums1, nums1Size, m, nums2, nums2Size, n);
 
 	return 0;
 }

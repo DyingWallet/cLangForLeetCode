@@ -146,9 +146,13 @@
     <ClCompile Include="lcp_03.c" />
     <ClCompile Include="lcp_06.c" />
     <ClCompile Include="lc_1.c" />
+    <ClCompile Include="lc_100.c" />
     <ClCompile Include="lc_101.c" />
+    <ClCompile Include="lc_104.c" />
     <ClCompile Include="lc_1047.c" />
+    <ClCompile Include="lc_108.c" />
     <ClCompile Include="lc_1108.c" />
+    <ClCompile Include="lc_1124.c" />
     <ClCompile Include="lc_13.c" />
     <ClCompile Include="lc_131.c" />
     <ClCompile Include="lc_14.c" />
@@ -183,6 +187,8 @@
     <ClCompile Include="lc_69.c" />
     <ClCompile Include="lc_7.c" />
     <ClCompile Include="lc_771.c" />
+    <ClCompile Include="lc_83.c" />
+    <ClCompile Include="lc_88.c" />
     <ClCompile Include="lc_9.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="lc_35.c" />

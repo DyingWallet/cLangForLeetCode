@@ -43,6 +43,10 @@ int lengthOfLastWord(char* s);
 char* addBinary(char* a, char* b);
 //lc_69
 int mySqrt(int x);
+//lc_88
+void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n);
+//lc_100
+bool isSameTree(struct TreeNode* p, struct TreeNode* q);
 //lc_226
 treeNode invertTree(treeNode root);
 //lc_388
