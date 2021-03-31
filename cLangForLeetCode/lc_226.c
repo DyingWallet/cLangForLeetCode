@@ -10,17 +10,17 @@
 #include"leetCode.h"
 #include"leetCodeStructs.h"
 
-typedef struct TreeNode* treeNode;
+typedef struct TreeNode treeNode;
 
-treeNode inv(treeNode node);
-treeNode invertTree(treeNode root) {
+treeNode* inv(treeNode* node);
+treeNode* invertTree(treeNode* root) {
 	if (root)
 		return inv(root);
 	return root;
 }
 
-treeNode inv(treeNode node) {
-	treeNode temp = node->left;
+treeNode* inv(treeNode* node) {
+	treeNode* temp = node->left;
 	node->left = node->right;
 	node->right = temp;
 	if (node->left) node->left = inv(node->left);

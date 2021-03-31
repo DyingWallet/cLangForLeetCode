@@ -9,8 +9,8 @@
 
 #include"leetCode.h"
 
-typedef struct TreeNode* treeNode;
-bool isSym(treeNode, treeNode);
+typedef struct TreeNode treeNode;
+bool isSym(treeNode*, treeNode*);
 
 bool isSymmetric(struct TreeNode* root) {
     if (root)
@@ -18,7 +18,7 @@ bool isSymmetric(struct TreeNode* root) {
     return true;
 }
 
-bool isSym(treeNode left, treeNode right) {
+bool isSym(treeNode* left, treeNode* right) {
     if (left || right) {
         if (left && right) {
             if (left->val != right->val) return false;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -154,10 +154,18 @@
     <ClCompile Include="lc_110.c" />
     <ClCompile Include="lc_1108.c" />
     <ClCompile Include="lc_111.c" />
+    <ClCompile Include="lc_112.c" />
     <ClCompile Include="lc_1124.c" />
+    <ClCompile Include="lc_118.c" />
+    <ClCompile Include="lc_119.c" />
+    <ClCompile Include="lc_121.c" />
+    <ClCompile Include="lc_122.c" />
+    <ClCompile Include="lc_125.c" />
     <ClCompile Include="lc_13.c" />
     <ClCompile Include="lc_131.c" />
+    <ClCompile Include="lc_136.c" />
     <ClCompile Include="lc_14.c" />
+    <ClCompile Include="lc_141.c" />
     <ClCompile Include="lc_1431.c" />
     <ClCompile Include="lc_1470.c" />
     <ClCompile Include="lc_1486.c" />

@@ -47,8 +47,16 @@ int mySqrt(int x);
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n);
 //lc_100
 bool isSameTree(struct TreeNode* p, struct TreeNode* q);
+//lc_118
+int** generate(int numRows, int* returnSize, int** returnColumnSizes);
+//lc_119
+int* getRow(int rowIndex, int* returnSize);
+//lc_121
+int maxProfit(int* prices, int pricesSize);
+//lc_125
+bool isPalindrome1(char* s);
 //lc_226
-treeNode invertTree(treeNode root);
+treeNode* invertTree(treeNode* root);
 //lc_388
 int* countBitsHigh(int num, int* returnSize);
 //lc_503

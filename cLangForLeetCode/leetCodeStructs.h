@@ -13,4 +13,5 @@ struct TreeNode {
 	struct TreeNode* left;
 	struct TreeNode* right;
 };
-typedef struct TreeNode* treeNode;
+
+typedef struct TreeNode treeNode;

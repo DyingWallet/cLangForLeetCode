@@ -180,6 +180,24 @@
     <ClCompile Include="lc_111.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_112.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_118.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_119.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_121.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_122.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_125.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetCode.h">

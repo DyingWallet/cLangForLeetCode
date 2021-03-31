@@ -1,8 +1,8 @@
 
 #include"leetCode.h"
 
-typedef struct TreeNode* treeNode;
-void find(treeNode node, long long* res, int rootVal);
+typedef struct TreeNode treeNode;
+void find(treeNode* node, long long* res, int rootVal);
 int findSecondMinimumValue(struct TreeNode* root) {
 	if (!root) return -1;
 	long long res = LLONG_MAX;
@@ -10,7 +10,7 @@ int findSecondMinimumValue(struct TreeNode* root) {
 	return res == LLONG_MAX ? -1 : (int)res;
 }
 
-void find(treeNode node, long long* res, int rootVal) {
+void find(treeNode* node, long long* res, int rootVal) {
 	if (node) {
 		if (node->val > rootVal && node->val < *res)
 			*res = node->val;
