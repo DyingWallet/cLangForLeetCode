@@ -45,6 +45,8 @@ char* addBinary(char* a, char* b);
 int mySqrt(int x);
 //lc_88
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n);
+//lc_94
+int* inorderTraversal(struct TreeNode* root, int* returnSize);
 //lc_100
 bool isSameTree(struct TreeNode* p, struct TreeNode* q);
 //lc_118

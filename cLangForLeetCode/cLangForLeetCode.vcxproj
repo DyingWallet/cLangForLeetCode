@@ -200,6 +200,7 @@
     <ClCompile Include="lc_83.c" />
     <ClCompile Include="lc_88.c" />
     <ClCompile Include="lc_9.c" />
+    <ClCompile Include="lc_94.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="lc_35.c" />
   </ItemGroup>
