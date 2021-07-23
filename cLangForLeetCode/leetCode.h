@@ -57,6 +57,10 @@ int* getRow(int rowIndex, int* returnSize);
 int maxProfit(int* prices, int pricesSize);
 //lc_125
 bool isPalindrome1(char* s);
+//lc_144
+int* preorderTraversal(struct TreeNode* root, int* returnSize);
+//lc_145
+int* postorderTraversal(struct TreeNode* root, int* returnSize);
 //lc_226
 treeNode* invertTree(treeNode* root);
 //lc_388
