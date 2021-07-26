@@ -172,6 +172,9 @@
     <ClCompile Include="lc_1470.c" />
     <ClCompile Include="lc_1486.c" />
     <ClCompile Include="lc_1512.c" />
+    <ClCompile Include="lc_155.c" />
+    <ClCompile Include="lc_160.c" />
+    <ClCompile Include="lc_167.c" />
     <ClCompile Include="lc_1672.c" />
     <ClCompile Include="lc_1678.c" />
     <ClCompile Include="lc_1720.c" />

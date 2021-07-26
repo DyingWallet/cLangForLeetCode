@@ -61,6 +61,8 @@ bool isPalindrome1(char* s);
 int* preorderTraversal(struct TreeNode* root, int* returnSize);
 //lc_145
 int* postorderTraversal(struct TreeNode* root, int* returnSize);
+//lc_167
+int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize);
 //lc_226
 treeNode* invertTree(treeNode* root);
 //lc_388
