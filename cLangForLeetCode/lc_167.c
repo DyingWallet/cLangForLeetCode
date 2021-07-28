@@ -19,8 +19,6 @@ int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize) {
 		if (0 <= temp && temp <= 2000)
 			targetTable[temp] = index;
 	}
-	temp = 0;
-
 	for (int i = 0; i < numbersSize; i++) {
 		temp = targetTable[numbers[i] + WEIGHT];
 		if (temp != 0) {
@@ -32,3 +30,51 @@ int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize) {
 	}
 	return res;
 }
+
+//¶þ·Ö
+//int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize) {
+//	int* res = (int*)calloc(2, sizeof(int));
+//	(*returnSize) = 2;
+//	int resVal, left, right, mid;
+//
+//	for (int i = 0; i < numbersSize; i++) {
+//		resVal = target - numbers[i];
+//		left = 0; right = numbersSize - 1, mid = left + (right - left) / 2;
+//		while (left <= right) {
+//			if (resVal == numbers[mid]) {
+//				if (mid == i)
+//					mid += 1;
+//				res[0] = i + 1;
+//				res[1] = mid + 1;
+//				return res;
+//			} else if (resVal < numbers[mid]) {
+//				right = mid - 1;
+//			} else if (resVal > numbers[mid]) {
+//				left = mid + 1;
+//			}
+//			mid = left + (right - left) / 2;
+//		}
+//	}
+//	return NULL;
+//}
+
+//Ë«Ö¸Õë
+//int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize) {
+//	int* res = (int*)calloc(2, sizeof(int));
+//
+//	for (int low = 0, high = numbersSize - 1; low < high;) {
+//		int sum = numbers[low] + numbers[high];
+//
+//		if (sum == target) {
+//			res[0] = low + 1;
+//			res[1] = high + 1;
+//			(*returnSize) = 2;
+//			return res;
+//		} else if (sum < target) {
+//			low++;
+//		} else {
+//			high--;
+//		}
+//	}
+//	return NULL;
+//}

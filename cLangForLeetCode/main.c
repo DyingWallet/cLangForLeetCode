@@ -95,11 +95,12 @@ int main() {
 	//int nums2[] = { 2,3,4 };
 
 	//merge(nums1, nums1Size, m, nums2, nums2Size, n);
-	int numbers[] = { 2,7,11,15 };
-	int target = 9;
+
+	int numbers[] = { 1, 2, 3, 4, 4, 9, 56, 90 };
+	int target = 8;
 	int returnSize = 0;
 
-	int* res = twoSum(numbers, 4, target, &returnSize);
+	int* res = twoSum_167(numbers, 8, target, &returnSize);
 
 	for (int i = 0; i < returnSize; i++) {
 		printf("%d", res[i]);
