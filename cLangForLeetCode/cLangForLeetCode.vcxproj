@@ -24,6 +24,7 @@
     <ProjectGuid>{773ba6b8-054b-4b28-aca6-0099c1a4a282}</ProjectGuid>
     <RootNamespace>cLangForLeetCode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>cLangForLeetCode</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -177,10 +178,13 @@
     <ClCompile Include="lc_167.c" />
     <ClCompile Include="lc_1672.c" />
     <ClCompile Include="lc_1678.c" />
+    <ClCompile Include="lc_169.c" />
     <ClCompile Include="lc_1720.c" />
     <ClCompile Include="lc_2.c" />
     <ClCompile Include="lc_20.c" />
+    <ClCompile Include="lc_202.c" />
     <ClCompile Include="lc_21.c" />
+    <ClCompile Include="lc_217.c" />
     <ClCompile Include="lc_226.c" />
     <ClCompile Include="lc_232.c" />
     <ClCompile Include="lc_237.c" />

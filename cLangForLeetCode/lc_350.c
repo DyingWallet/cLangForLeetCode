@@ -19,7 +19,7 @@
 
 #include"leetCode.h"
 
-int cmp(const void* _a, const void* _b) {
+int cmp_350(const void* _a, const void* _b) {
 	int* a = _a, * b = _b;
 	return *a == *b ? 0 : (*a > *b ? 1 : -1);
 }
@@ -30,8 +30,8 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
 	*returnSize = 0;
 	if (nums1Size == 0 || nums2Size == 0) return _1shorterThan2 ? nums1 : nums2;
 	int* res = (int*)calloc(len, sizeof(int));
-	qsort(nums1, nums1Size, sizeof(int), cmp);
-	qsort(nums2, nums2Size, sizeof(int), cmp);
+	qsort(nums1, nums1Size, sizeof(int), cmp_350);
+	qsort(nums2, nums2Size, sizeof(int), cmp_350);
 	for (int i = 0, j = 0; i < nums1Size && j < nums2Size;) {
 		if (nums1[i] < nums2[j]) i++;
 		else if (nums1[i] > nums2[j]) j++;

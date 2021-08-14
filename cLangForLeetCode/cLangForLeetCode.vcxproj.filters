@@ -222,6 +222,15 @@
     <ClCompile Include="lc_167.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lc_169.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_217.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_202.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetCode.h">

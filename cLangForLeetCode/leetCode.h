@@ -4,6 +4,8 @@
 #include<stdbool.h>
 #include<string.h>
 #include<math.h>
+#include<time.h>
+#include<Windows.h>
 #include"leetCodeStructs.h"
 
 //lc
@@ -63,6 +65,8 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize);
 int* postorderTraversal(struct TreeNode* root, int* returnSize);
 //lc_167
 int* twoSum_167(int* numbers, int numbersSize, int target, int* returnSize);
+//lc_169
+int majorityElement(int* nums, int numsSize);
 //lc_226
 treeNode* invertTree(treeNode* root);
 //lc_388
